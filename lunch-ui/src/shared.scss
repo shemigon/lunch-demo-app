@@ -1,0 +1,41 @@
+@mixin commands {
+  .commands {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.6em;
+    margin-bottom: 0.6em;
+
+    button, a {
+      text-decoration: none;
+      background: none;
+      color: black;
+      font: initial;
+      font-size: 150%;
+      text-transform: lowercase;
+      font-weight: bold;
+      border: 1px solid;
+      border-radius: .3em;
+      margin: 0 .4em;
+      padding: 0.2em 0.9em;
+      cursor: pointer;
+      text-align: center;
+
+      &:focus {
+        outline: none;
+      }
+
+      &:active {
+        background: #ccc;
+      }
+
+      &.default {
+        background: #5c9e5a;
+        color: #e0f8e0;
+
+        &:active {
+          background: #2a4929;
+        }
+      }
+    }
+  }
+}

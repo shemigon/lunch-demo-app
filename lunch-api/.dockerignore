@@ -1,0 +1,6 @@
+.idea
+*.sqlite3
+Dockerfile
+env
+.gitignore
+.git

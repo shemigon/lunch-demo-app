@@ -1,0 +1,25 @@
+@import "constants";
+
+.wrapper {
+  width: 50%;
+  margin: 0 auto;
+  background: $bgColor;
+  min-width: 40em;
+}
+
+.header {
+  font-size: 200%;
+  text-align: center;
+  padding: .6em;
+  border-bottom: 5px solid $headerDelimiterColor;
+}
+
+.footer {
+  text-align: center;
+  padding: .8em;
+  border-top: 5px solid $footerDelimiterColor;
+}
+
+.main {
+  padding: 1em 1.8em;
+}

@@ -1,0 +1,46 @@
+.item {
+  border: 1px solid white;
+  display: inline-block;
+  padding: 1.2em;
+  width: 16em;
+}
+
+.row {
+  margin: .3em .6em;
+  padding-top: .6em;
+  display: flex;
+
+  &:first-child {
+    padding-top: 0;
+  }
+}
+
+.name {
+  font-size: 150%;
+  font-weight: bold;
+  width: 100%;
+}
+
+.rating {
+  display: inline-block;
+
+  select {
+    font-size: 125%;
+  }
+}
+
+.foodType {
+  padding: 0 .3em;
+  font-style: italic;
+
+  &:first-child {
+    padding-left: 0;
+  }
+
+  &:last-child {
+    padding-right: 0;
+  }
+}
+
+.address {
+}
